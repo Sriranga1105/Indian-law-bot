@@ -1,0 +1,431 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Namaste",
+          "Hello",
+          "Greetings",
+          "Good day",
+          "Hi there",
+          "I need legal help",
+          "Can you assist me with Indian law?",
+          "Is a legal expert available?"
+        ],
+        "responses": [
+          "Namaste! How can I assist you with Indian law today?",
+          "Hello! I'm here to help with your questions about Indian legal matters. What would you like to know?",
+          "Greetings! I'm your AI assistant for Indian law. How may I help you?",
+          "Good day! What area of Indian law do you need information about?"
+        ]
+      },
+      {
+        "tag": "Indian Laws",
+        "patterns": [
+            "Indian laws",
+            "How many laws are there?",
+            "Indai Laws",
+            "Indian law",
+            "How many sections are there"
+        ],
+        "responses": [
+            "In India Law there are: civil law, common law, customary law, religious law and corporate law."
+        ]
+      },
+      {
+        "tag": "Sections",
+        "patterns": [
+            "Indian law sections",
+            "How many sections are there",
+            "law sections",
+            "Indian law sections count",
+            "sections in Indian law"
+        ],
+        "responses": [
+            "There are total 576 sections in the IPC.",
+            "The Indian Penal Code (IPC) has 23 chapters and 511 sections."
+        ]
+      },
+      {
+        "tag": "some law",
+        "patterns": [
+            "tell me about some laws",
+            "tell me about some laws in India"
+        ],
+        "responses": [
+            "Here are some important laws in India: \n1) Maternity Benefit (Amendment) Act, 2017:\nThis act modernized maternity laws and improved the benefits for pregnant women.\n2) Equality before the law:\nThis fundamental right in the Indian Constitution ensures that all citizens are equal before the law and there is no discrimination based on personal characteristics.\n3) Criminal law:\nThis law deals with offenses against the state, such as murder, theft, and fraud.\n4) Labour law:\nThis law is important in India because of the country's large population and variety of economic standards.\n5)The Prohibition of Child Marriage Act, 2006:\nThis act sets the minimum age of marriage to 18 years for girls and 21 years for boys.\n6)Constitution of India:\nThis is the supreme law of India and sets down the fundamental rights of the people of the nation.\n7)Hindu Succession Act, 1956:\nThis law is important in commercial and corporate legislation because of the family separation and property separation between them."
+        ]
+      },
+      {
+        "tag": "important law",
+        "patterns": [
+            "Important laws in India",
+            "Important law in India",
+            "Important laws",
+            "Important law",
+            "Important laws of India",
+            "Important law of India",
+            "what are the important law of India",
+            "what are the important laws of India",
+            "tell me about important laws in India"
+        ],
+        "responses":[
+            "Here are some important laws in India that you might be interested in:\n1. The Constitution of India (1950)\n2. Indian Penal Code (IPC), 1860\n3. Code of Criminal Procedure (CrPC), 1973\n4. Code of Civil Procedure (CPC), 1908\n5. Right to Information Act (RTI), 2005\n6. Hindu Marriage Act (1955) and Muslim Personal Laws\n7. The Dowry Prohibition Act, 1961\n8. Protection of Women from Domestic Violence Act, 2005\n9. Right to Education Act (RTE), 2009\n10. The Environmental Protection Act, 1986\n11. Goods and Services Tax Act (GST), 2017\n12. Consumer Protection Act, 2019\n----------------------------------------------------------------\nThese laws form the backbone of the Indian legal system, providing citizens with a framework for rights, safety, and justice."
+        ]
+      },
+      {
+        "tag": "frist law",
+        "patterns": [
+            "ok, tell me about the first one",
+            "explain the first",
+            "detail explain on first",
+            "tell me about first one",
+            "tell me about the first one",
+            "tell me about the first one you mentioned",
+            "ok, tell me about the 1st one",
+            "explain the 1st",
+            "detail explain on 1st",
+            "tell me about 1st one",
+            "tell me about the 1st one",
+            "tell me about the 1st one you mentioned"
+        ],
+        "responses":[
+            "The Constitution of India (1950) is the supreme law of the country, establishing the fundamental political code, structure, powers, and duties of government institutions, and setting out fundamental rights, directive principles, and citizens' duties. It safeguards individual rights and outlines a federal structure with clear powers divided between central and state governments. Additionally, it has provisions to uphold equality, freedom, and justice for all citizens, making it a cornerstone of Indian democracy."
+        ]
+      },
+      {
+        "tag": "second law",
+        "patterns": [
+            "ok, tell me about the second one",
+            "explain the second",
+            "detail explain on second",
+            "tell me about second one",
+            "tell me about the second one",
+            "tell me about the second one you mentioned",
+            "ok, tell me about the 2nd one",
+            "explain the 2nd",
+            "detail explain on 2nd",
+            "tell me about 2nd one",
+            "tell me about the 2nd one",
+            "tell me about the 2nd one you mentioned"
+        ],
+        "responses":[
+            "The Indian Penal Code (IPC), 1860 is the principal criminal code that defines various offenses and prescribes punishments. This comprehensive code covers crimes such as theft, assault, murder, and fraud, as well as white-collar crimes. It addresses issues ranging from offenses against the state, the human body, and property, to defamation and cybercrime, providing a structured framework for criminal justice in India."
+        ]
+      },
+      {
+        "tag": "third law",
+        "patterns": [
+            "ok, tell me about the third one",
+            "explain the third",
+            "detail explain on third",
+            "tell me about third one",
+            "tell me about the third one",
+            "tell me about the third one you mentioned",
+            "ok, tell me about the 3rd one",
+            "explain the 3rd",
+            "detail explain on 3rd",
+            "tell me about 3rd one",
+            "tell me about the 3rd one",
+            "tell me about the 3rd one you mentioned"
+        ],
+        "responses":[
+            "The Code of Criminal Procedure (CrPC), 1973 regulates the process for criminal cases, setting guidelines for investigations, arrests, bail, trial procedures, and the rights of the accused. It ensures fair treatment and due process, aiming to maintain order and protect the rights of individuals throughout criminal proceedings. The Code of Civil Procedure (CPC), 1908 governs civil cases, detailing procedural rules for filing suits, summoning parties, and delivering judgments. It is essential for resolving property, contract, and other civil disputes, ensuring a just and organized process."
+        ]
+      },
+      {
+        "tag": "fourth law",
+        "patterns": [
+            "ok, tell me about the fourth one",
+            "explain the fourth",
+            "detail explain on fourth",
+            "tell me about fourth one",
+            "tell me about the fourth one",
+            "tell me about the fourth one you mentioned",
+            "ok, tell me about the 4th one",
+            "explain the 4th",
+            "detail explain on 4th",
+            "tell me about 4th one",
+            "tell me about the 4th one",
+            "tell me about the 4th one you mentioned"
+        ],
+        "responses":[
+            "The Code of Civil Procedure (CPC), 1908 is a comprehensive law in India that governs the procedural framework for civil courts. It outlines the process for filing civil suits, handling disputes, and executing judgments. The CPC aims to provide a standardized, efficient approach to managing civil cases such as property disputes, family matters, contract disputes, and other non-criminal legal issues. This law ensures that every stage in a civil suit, from the initial filing to the final judgment, follows a structured and fair procedure."
+        ]
+      },
+      {
+        "tag": "fifth law",
+        "patterns": [
+            "ok, tell me about the fifth one",
+            "explain the fifth",
+            "detail explain on fifth",
+            "tell me about fifth one",
+            "tell me about the fifth one",
+            "tell me about the fifth one you mentioned",
+            "ok, tell me about the 5th one",
+            "explain the 5th",
+            "detail explain on 5th",
+            "tell me about 5th one",
+            "tell me about the 5th one",
+            "tell me about the 5th one you mentioned"
+        ],
+        "responses":[
+            "The Right to Information Act (RTI), 2005 empowers Indian citizens to request information from public authorities, promoting transparency and accountability in government operations. This act mandates timely responses from government bodies, allowing citizens to inquire about decisions, policies, and expenditures. RTI has become a powerful tool against corruption, as it requires public institutions to maintain transparency in their workings and encourages active civic participation in governance."
+        ]
+      },
+      {
+        "tag": "sixth law",
+        "patterns": [
+            "ok, tell me about the sixth one",
+            "explain the sixth",
+            "detail explain on sixth",
+            "tell me about sixth one",
+            "tell me about the sixth one",
+            "tell me about the sixth one you mentioned",
+            "ok, tell me about the 6th one",
+            "explain the 6th",
+            "detail explain on 6th",
+            "tell me about 6th one",
+            "tell me about the 6th one",
+            "tell me about the 6th one you mentioned"
+        ],
+        "responses":[
+            "The Hindu Marriage Act (1955) governs marriage, divorce, and related family matters for Hindus in India, including Buddhists, Jains, and Sikhs. It outlines legal requirements for a valid marriage, grounds for divorce, and rights to maintenance and alimony, aiming to ensure fair practices and equality. The Act also provides a legal framework for annulment, judicial separation, and child custody.\n\nOn the other hand, Muslim Personal Laws govern marriage and family matters among Muslims in India under the Muslim Personal Law (Shariat) Application Act, 1937. This law allows Muslims to follow their religious principles in marriage, inheritance, and divorce, with practices like Nikah (marriage), Talaq (divorce), and Mehr (dower) regulated according to Islamic law. Together, these laws reflect India's commitment to personal religious freedom in family matters, respecting cultural diversity within a unified legal structure."
+        ]
+      },
+      {
+        "tag": "seventh law",
+        "patterns": [
+            "ok, tell me about the seventh one",
+            "explain the seventh",
+            "detail explain on seventh",
+            "tell me about seventh one",
+            "tell me about the seventh one",
+            "tell me about the seventh one you mentioned",
+            "ok, tell me about the 7th one",
+            "explain the 7th",
+            "detail explain on 7th",
+            "tell me about 7th one",
+            "tell me about the 7th one",
+            "tell me about the 7th one you mentioned"
+        ],
+        "responses":[
+            "The Dowry Prohibition Act, 1961 is a critical law in India that prohibits the giving and receiving of dowry in any form, aiming to curb the social evil of dowry-related exploitation and violence against women. Under this Act, dowry is defined as any valuable security or property given directly or indirectly by one party to a marriage to the other party. The law criminalizes dowry demands before, during, or after marriage, with penalties including imprisonment and fines for those involved in dowry transactions. Despite amendments to strengthen its provisions, dowry practices still persist in some areas, and the Act serves as a legal foundation for protecting women from harassment, abuse, and violence linked to dowry."
+        ]
+      },
+      {
+        "tag": "eighth law",
+        "patterns": [
+            "ok, tell me about the eighth one",
+            "explain the eighth",
+            "detail explain on eighth",
+            "tell me about eighth one",
+            "tell me about the eighth one",
+            "tell me about the eighth one you mentioned",
+            "ok, tell me about the 8th one",
+            "explain the 8th",
+            "detail explain on 8th",
+            "tell me about 8th one",
+            "tell me about the 8th one",
+            "tell me about the 8th one you mentioned"
+        ],
+        "responses":[
+            "The Protection of Women from Domestic Violence Act, 2005 is a landmark law in India that provides comprehensive protection for women against various forms of domestic abuse, including physical, emotional, sexual, and economic violence. This Act empowers women facing abuse from family members, including spouses and in-laws, by enabling them to seek immediate relief, such as protection orders, residence orders, and financial compensation. It also grants victims access to shelter homes, medical aid, and counseling services. The Act takes a broad view of domestic violence, acknowledging the diverse ways women may experience abuse within households. Importantly, it allows for a quicker and more supportive legal process, involving the intervention of Protection Officers and support services to ensure the safety and well-being of the woman."
+        ]
+      },
+      {
+        "tag": "ninth law",
+        "patterns": [
+            "ok, tell me about the ninth one",
+            "explain the ninth",
+            "detail explain on ninth",
+            "tell me about ninth one",
+            "tell me about the ninth one",
+            "tell me about the ninth one you mentioned",
+            "ok, tell me about the 9th one",
+            "explain the 9th",
+            "detail explain on 9th",
+            "tell me about 9th one",
+            "tell me about the 9th one",
+            "tell me about the 9th one you mentioned"
+        ],
+        "responses":[
+            "The Right to Education Act (RTE), 2009 makes free and compulsory education a fundamental right for all children in India aged 6 to 14. This transformative law mandates that every child has access to quality education and places the responsibility on the government to provide necessary infrastructure, trained teachers, and inclusive, non-discriminatory learning environments. The Act requires private schools to reserve 25% of seats for underprivileged children, promoting social inclusivity. Additionally, RTE sets minimum standards for schools in terms of teacher-student ratios, learning facilities, and curriculum, with a focus on making education accessible, equitable, and meaningful for every child."
+        ]
+      },
+      {
+        "tag": "tenth law",
+        "patterns": [
+            "ok, tell me about the tenth one",
+            "explain the tenth",
+            "detail explain on tenth",
+            "tell me about tenth one",
+            "tell me about the tenth one",
+            "tell me about the tenth one you mentioned",
+            "ok, tell me about the 10th one",
+            "explain the 10th",
+            "detail explain on 10th",
+            "tell me about 10th one",
+            "tell me about the 10th one",
+            "tell me about the 10th one you mentioned"
+        ],
+        "responses":[
+            "The Environmental Protection Act, 1986 is a crucial law in India enacted to protect and improve the environment following the Bhopal gas tragedy. It grants the central government extensive powers to regulate pollution, manage hazardous substances, and enforce environmental safety measures across the country. This Act empowers authorities to take preventive actions against industries causing harm to the environment, impose penalties, and set standards for air, water, and soil quality. It also enables government bodies to close or restrict industries that violate environmental norms and to conduct inspections and environmental assessments. The Environmental Protection Act provides a strong legal framework for preserving natural resources, controlling pollution, and fostering sustainable development in India"
+        ]
+      },
+      {
+        "tag": "eleventh law",
+        "patterns": [
+            "ok, tell me about the eleventh one",
+            "explain the eleventh",
+            "detail explain on eleventh",
+            "tell me about eleventh one",
+            "tell me about the eleventh one",
+            "tell me about the eleventh one you mentioned",
+            "ok, tell me about the 11th one",
+            "explain the 11th",
+            "detail explain on 11th",
+            "tell me about 11th one",
+            "tell me about the 11th one",
+            "tell me about the 11th one you mentioned"
+        ],
+        "responses":[
+            "The Goods and Services Tax Act (GST), 2017 is a significant tax reform in India that simplifies the indirect tax structure by merging multiple taxes into a single tax on goods and services. Implemented on July 1, 2017, GST aims to create a unified national market by streamlining the tax regime, enhancing compliance, and reducing the cascading effect of taxes. Under this Act, goods and services are categorized into different tax slabs, and both the central and state governments share the revenue generated from GST.\n\nGST has several key features, including the introduction of a comprehensive tax credit system that allows businesses to claim credits for taxes paid on inputs, thus minimizing the overall tax burden. The Act also establishes a robust framework for tax administration, including provisions for registration, returns, and assessment, which promotes transparency and accountability. By replacing a complex array of state and central taxes—such as Value Added Tax (VAT), service tax, and excise duty—GST aims to simplify compliance for businesses, enhance tax collection efficiency, and foster economic growth in India."
+        ]
+      },
+      {
+        "tag": "twelfth law",
+        "patterns": [
+            "ok, tell me about the twelfth one",
+            "explain the twelfth",
+            "detail explain on twelfth",
+            "tell me about twelfth one",
+            "tell me about the twelfth one",
+            "tell me about the twelfth one you mentioned",
+            "ok, tell me about the 12th one",
+            "explain the 12th",
+            "detail explain on 12th",
+            "tell me about 12th one",
+            "tell me about the 12th one",
+            "tell me about the 12th one you mentioned"
+        ],
+        "responses":[
+            "The Consumer Protection Act, 2019 is a significant reform in consumer rights legislation in India, aimed at safeguarding the interests of consumers and promoting fair trade practices. This Act replaces the earlier Consumer Protection Act of 1986 and introduces several key provisions to enhance consumer rights and remedies. It defines a consumer as any individual who buys goods or services for personal use and not for resale, thus broadening the scope of protection.\nOne of the notable features of the Act is the establishment of the Central Consumer Protection Authority (CCPA), which is empowered to enforce consumer rights, regulate misleading advertisements, and take action against unfair trade practices. The Act introduces mechanisms for faster resolution of consumer disputes through a simplified three-tier structure of consumer forums at the district, state, and national levels, allowing consumers to file complaints online for greater accessibility.\nAdditionally, the Act emphasizes the importance of consumer education and awareness, enabling consumers to be better informed about their rights regarding quality, safety, and pricing of goods and services. It also includes provisions for product liability, holding manufacturers and service providers accountable for defects in goods and deficiencies in services. Overall, the Consumer Protection Act, 2019, strengthens the legal framework for consumer rights in India, making it easier for consumers to seek redressal and promoting a more accountable marketplace."
+        ]
+      },
+      {
+        "tag": "criminal_law",
+        "patterns": [
+          "What is the Indian Penal Code?",
+          "Can you explain FIR in Indian law?",
+          "What are my rights if I'm arrested in India?",
+          "How does bail work in India?",
+          "What is the difference between cognizable and non-cognizable offenses?",
+          "Can you explain anticipatory bail in India?",
+          "What is Section 302 of IPC?",
+          "How does POCSO Act work in India?"
+        ],
+        "responses": [
+          "Indian criminal law is primarily governed by the Indian Penal Code (IPC). An FIR (First Information Report) is the first step in criminal cases. Rights upon arrest include the right to know the grounds of arrest and the right to legal representation. Could you specify which aspect of Indian criminal law you're interested in?",
+          "In Indian criminal law, cognizable offenses are more serious than non-cognizable ones. Bail allows temporary release during trial. The POCSO Act deals with sexual offenses against children. Would you like more details on any of these topics?",
+          "Indian criminal law covers various offenses and legal processes. Topics range from types of crimes in the IPC to defendant rights and court procedures. What specific area of Indian criminal law are you inquiring about?",
+          "Criminal law in India encompasses many aspects, including types of offenses, legal defenses, and procedural rights. Can you provide more context about your question on Indian criminal law?"
+        ]
+      },
+      {
+        "tag": "civil_law",
+        "patterns": [
+          "What is civil law in India?",
+          "How do I file a civil suit in India?",
+          "What's the difference between civil and criminal cases in India?",
+          "Can you explain tort law in India?",
+          "What is a Public Interest Litigation (PIL)?",
+          "How long do I have to file a civil claim in India?",
+          "What is the Civil Procedure Code?",
+          "How does consumer protection law work in India?"
+        ],
+        "responses": [
+          "Civil law in India deals with disputes between individuals or organizations, often seeking compensation or specific performance. This includes areas like contract disputes, property law, and personal injury claims. The Civil Procedure Code governs civil court procedures. What specific aspect of Indian civil law are you interested in?",
+          "In Indian civil law, you can file a suit to seek remedies for civil wrongs. Public Interest Litigation (PIL) allows any person to approach the court for public interest. Consumer protection laws safeguard consumer rights. Would you like more information on any of these topics?",
+          "Indian civil law covers various non-criminal legal disputes. This can include contract issues, property disputes, and personal injury cases. The limitation period for filing civil suits varies depending on the nature of the case. Do you have a specific civil law question?",
+          "Civil law in India encompasses many types of legal disputes between parties. These can range from contract breaches to property disagreements. Could you provide more context about your civil law inquiry in the Indian context?"
+        ]
+      },
+      {
+        "tag": "constitutional_law",
+        "patterns": [
+          "What is the Indian Constitution?",
+          "Can you explain Fundamental Rights in India?",
+          "How does the Supreme Court of India interpret the Constitution?",
+          "What are Directive Principles of State Policy?",
+          "How does the separation of powers work in India?",
+          "What is Article 32 of the Indian Constitution?",
+          "Can you explain the concept of federalism in India?",
+          "What is judicial review in the Indian context?"
+        ],
+        "responses": [
+          "The Indian Constitution is the supreme law of India. It provides the framework for the fundamental political code, structure, procedures, powers, and duties of government institutions. Fundamental Rights are guaranteed to all citizens. What specific aspect of Indian constitutional law are you curious about?",
+          "The Supreme Court of India is the final interpreter of the Constitution. Article 32 provides for constitutional remedies. The Directive Principles of State Policy are guidelines for governance. Would you like more details on any of these concepts in the Indian context?",
+          "Indian constitutional law encompasses the interpretation and application of the Constitution. This includes topics like Fundamental Rights, federalism, and judicial review. The separation of powers divides the government into executive, legislative, and judicial branches. Do you have a specific constitutional law question?",
+          "Constitutional law is the foundation of the Indian legal system. It covers governmental powers, individual rights, and the interpretation of the Constitution. Can you provide more context about your constitutional law inquiry in relation to India?"
+        ]
+      },
+      {
+        "tag": "family_law",
+        "patterns": [
+          "What does family law cover in India?",
+          "How does divorce work under Hindu Marriage Act?",
+          "Can you explain Muslim personal law in India?",
+          "What is alimony called in India?",
+          "How is child custody determined in Indian courts?",
+          "What are the requirements for adoption in India?",
+          "Can you explain the Special Marriage Act?",
+          "How does succession law work in India?"
+        ],
+        "responses": [
+          "Family law in India covers legal matters involving family relationships. This includes marriage, divorce, child custody, and adoption. Different personal laws apply to different religious communities. What specific aspect of Indian family law are you interested in?",
+          "Divorce procedures in India vary based on personal laws. For Hindus, the Hindu Marriage Act governs divorce. Muslim personal law has its own provisions for divorce. Child custody is determined based on the best interest of the child. Would you like more information on any of these topics?",
+          "Indian family law encompasses various aspects of domestic relations. The Special Marriage Act allows for civil marriages regardless of religion. Succession laws govern inheritance and vary by religion. Do you have a specific family law question in the Indian context?",
+          "Family law in India deals with legal issues related to family relationships. These can include divorce proceedings, maintenance (alimony), and adoption requirements. Could you provide more context about your family law inquiry in India?"
+        ]
+      },
+      {
+        "tag": "corporate_commercial_law",
+        "patterns": [
+          "What is company law in India?",
+          "Can you explain the Companies Act, 2013?",
+          "How do I incorporate a company in India?",
+          "What are the rights of shareholders under Indian law?",
+          "Can you explain SEBI regulations?",
+          "What is the Insolvency and Bankruptcy Code?",
+          "How does GST work in India?",
+          "What are the different types of business structures in India?"
+        ],
+        "responses": [
+          "Corporate and commercial law in India deals with business-related legal matters. The Companies Act, 2013 is the primary legislation governing companies. Incorporating a company involves registration with the Registrar of Companies. What specific aspect of Indian corporate or commercial law are you interested in?",
+          "In Indian corporate law, shareholders have certain rights protected by law. SEBI (Securities and Exchange Board of India) regulates the securities market. The Insolvency and Bankruptcy Code deals with corporate insolvency. Would you like more details on any of these areas?",
+          "Corporate and commercial law in India encompasses various aspects of business operations. GST (Goods and Services Tax) is a unified tax system for goods and services. Business structures can include sole proprietorships, partnerships, LLPs, and companies. Do you have a specific corporate or commercial law question about India?",
+          "Corporate and commercial law in India covers a wide range of business-related legal topics. These can include company formation, shareholder rights, and taxation. Can you provide more context about your corporate or commercial law inquiry in the Indian context?"
+        ]
+      },
+      {
+        "tag": "legal_process",
+        "patterns": [
+          "How does the Indian court system work?",
+          "What is the hierarchy of courts in India?",
+          "Can you explain the writ jurisdiction of High Courts?",
+          "What happens during a trial in India?",
+          "How are judges appointed in India?",
+          "What is lok adalat?",
+          "How long does a typical lawsuit take in India?",
+          "What is alternative dispute resolution in India?"
+        ],
+        "responses": [
+          "The Indian court system has a hierarchical structure with the Supreme Court at the apex, followed by High Courts and subordinate courts. The Supreme Court and High Courts have writ jurisdiction. Can you specify which aspect of the Indian legal process you'd like to know more about?",
+          "During a trial in India, evidence is presented before a judge who then makes a decision. Judges for higher courts are appointed through a collegium system. Lok Adalats are a form of alternative dispute resolution. Would you like more information on any of these topics?",
+          "The legal process in India can vary depending on the type of case. Lawsuits can take several years to resolve. Alternative dispute resolution methods like arbitration and mediation are encouraged to reduce court burden. Do you have a specific question about legal procedures in India?",
+          "The Indian legal process involves various stages from filing a case to its resolution. This can include pre-trial procedures, the trial itself, and possible appeals. Could you provide more context about which part of the Indian legal process you're inquiring about?"
+        ]
+      }      
+    ]
+  }
