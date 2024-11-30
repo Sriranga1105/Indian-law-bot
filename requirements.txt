@@ -1,0 +1,8 @@
+flet==0.3.2
+tensorflow==2.13.0
+numpy==1.25.0
+scikit-learn==1.3.0
+pickle5==0.0.12  # For handling pickling (although pickle is part of Python's standard library, this can handle large objects more efficiently)
+
+# You can download any other version if it's not working.
+
